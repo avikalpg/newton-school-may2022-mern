@@ -1,7 +1,7 @@
 My name is Avikalp Kumar Gupta.
-I am an instructor at Newton School.
+I am an instructor.
 
 <html>
 </html>
 
-
+This is my second class. Today's date is 30th August 2022.
