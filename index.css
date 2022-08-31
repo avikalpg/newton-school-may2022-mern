@@ -1,0 +1,10 @@
+div {
+	color: blue;
+	background-color: yellow;
+}
+div #abc {
+	background-color: green;
+}
+span {
+	color: violet;
+}
