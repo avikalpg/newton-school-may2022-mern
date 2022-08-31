@@ -5,3 +5,7 @@ I am an instructor.
 </html>
 
 This is my second class. Today's date is 30th August 2022.
+
+* Spinach
+* Flour
+* carrot
