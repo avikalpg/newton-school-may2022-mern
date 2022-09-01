@@ -1,0 +1,27 @@
+Agenda for today's lecture
+Date: 30 August 2022
+
+Contents:
+	0. (missed in the previous class) Meta - viewport
+	1. Navbar
+		- moving to sections of the website through the navbar
+	2. Media
+		- Image
+		- audio
+		- video
+		- iframe
+	3. Tables
+		- tr
+		- th
+		- td
+		- tbody
+		- thead
+	4. Attributes
+		- src
+		- href
+		- height
+		- width
+		- alt
+
+Homework:
+	- One every website you visit, open inspect element and look at the meta tags. Try to understand why any meta tag is used using Google/Bing/DuckDuckGo.
