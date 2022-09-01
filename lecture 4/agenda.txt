@@ -3,19 +3,29 @@ Date: 30 August 2022
 
 Contents:
 	0. (missed in the previous class) Meta - viewport
+		=> Make the website RESPONSIVE
 	1. Navbar
 		- moving to sections of the website through the navbar
+
+	<questions>
+
 	2. Media
 		- Image
 		- audio
 		- video
 		- iframe
+
+	<questions>
+
 	3. Tables
 		- tr
 		- th
 		- td
 		- tbody
 		- thead
+
+	<questions>
+
 	4. Attributes
 		- src
 		- href
