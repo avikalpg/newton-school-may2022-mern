@@ -1,0 +1,28 @@
+table {
+	width: 600px;
+	margin: 1em;
+}
+
+thead {
+	background-color: aqua;
+}
+
+tfoot {
+	background-color: pink;
+}
+
+td {
+	text-align: end;
+}
+
+table,
+th,
+td {
+	border: 1px solid blueviolet;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	padding: 2px;
+}

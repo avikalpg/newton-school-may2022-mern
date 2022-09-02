@@ -1,0 +1,37 @@
+Agenda for today's lecture
+Date: 30 August 2022
+
+Contents:
+	1. Media - iframe
+
+	<questions>
+
+	2. Tables
+		- tr
+		- th
+		- td
+		- tbody
+		- thead
+
+	<questions>
+
+	4. Attributes
+		- src
+		- href
+		- height
+		- width
+		- alt
+	<questions>
+
+	5. Semantic HTML
+		- article
+		- figcaption
+		- figure
+		- summary
+		- main
+		- mark
+Homework:
+
+Doubts:
+	- Nav tag
+	-
