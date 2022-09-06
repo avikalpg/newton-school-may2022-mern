@@ -1,0 +1,34 @@
+Agenda for today's lecture
+Date: 30 August 2022
+
+Contents:
+	1. Semantic HTML
+		- article
+		- figcaption
+		- figure
+		- summary
+		- main
+		- mark
+
+	2. Forms
+		- form tag
+		- input tag
+		- text input
+		- label
+		- radio button
+		- checkbox
+		- submit button
+		- form Attributes
+		- action
+		- target
+		- method attr
+
+
+Homework:
+
+Doubts:
+	- output tag
+	- optgroup
+	- input types
+		- color
+		- Date
