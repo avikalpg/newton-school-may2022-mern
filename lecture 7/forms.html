@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>HTML Forms</title>
+</head>
+
+<body>
+	<p>Create your profile</p>
+	<a href="#married">Move to married element</a>
+	<form action="#" method="get">
+		<label for="name">Name</label>
+		<input id="name" type="text" placeholder="John Doe" name="name" />
+		<label for="pass">Password</label>
+		<input id="pass" type="password" name="password" />
+		<label for="married">Are you married?</label>
+		<input type="checkbox" name="married" id="married" />
+		<label for="emailid">Email</label>
+		<input type="email" name="emailid" />
+		<input type="button" value="Click me">
+		<input type="number">
+
+		<!-- Radio buttons -->
+		<input type="radio" name="gender" value="male" id="male_gender">
+		<label for="male_gender">Male</label>
+		<input type="radio" name="gender" value="female" id="female_gender">
+		<label for="female_gender">Female</label>
+		<input type="radio" name="gender" value="other" id="other_gender">
+		<label for="other_gender">Other</label>
+		<input type="radio" name="gender" value="notell" id="no_gender_provided">
+		<label for="no_gender_provided">Prefer not to say</label>
+
+		<!-- Select input -->
+		<label for="house">House</label>
+		<select id="house" name="house">
+			<optgroup label="Powerful">
+				<option value="stark">Stark</option>
+				<option value="targerian">Targerian</option>
+			</optgroup>
+			<option value="lannister">Lannister</option>
+			<option value="frey">Frey</option>
+			<optgroup label="color">
+				<option>red</option>
+				<option>blue</option>
+				<option>green</option>
+			</optgroup>
+		</select>
+
+		<select id="year" name="year_of_birth">
+			<option>1990</option>
+		</select>
+
+		<input type="submit" value="Create!" id="emailid" />
+	</form>
+	<script>
+		const lower = 1990;
+		const upper = 2020;
+		const years = [];
+		for (let i = lower; i <= upper; i++) {
+			years.push(i);
+		}
+		console.log(years)
+		document.getElementById("year").innerHTML = years.map(year => `<option value=${year}>${year}</option>`)
+	</script>
+</body>
+
+</html>
