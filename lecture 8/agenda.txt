@@ -1,0 +1,22 @@
+Agenda for today's lecture
+Date: 7 September 2022
+
+Contents:
+	1. Forms
+		- closing notes
+		- output tag
+	2. CSS
+		- introduction
+			CSS: Cascading Style Sheets
+		- how it works
+		- basic syntax
+			- inline style (style attribute)
+			- internal style (<script> tag)
+			- external style (.css file)
+		- selectors
+	3. colors
+
+
+Homework:
+
+Doubts:

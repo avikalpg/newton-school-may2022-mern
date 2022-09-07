@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Forms</title>
+	<style>
+		.box {
+			display: block;
+		}
+
+		#box1 {
+			background-color: aqua;
+		}
+
+		#box2 {
+			background-color: brown;
+		}
+
+		#box3 {
+			background-color: green;
+		}
+
+		label,
+		#initial,
+		#final {
+			display: block;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="box" id="box1">
+		Random text
+	</div>
+	<div class="box" id="box2">
+		Random text 2
+	</div>
+	<div class="box" id="box3">
+		Random text 3
+	</div>
+	<form oninput="outputName.value = user.value + '\@' + domain.value">
+		<label for="website">Your website link:</label>
+		<input type="url" name="website" id="website">
+
+		<label for="domain">domain name</label>
+		<input type="text" id="domain" value="0">
+
+		<label for="user">username</label>
+		<input type="text" id="user" value="10">
+
+		<label for="subdomain">subdomain</label>
+		<input type="text" id="subdomain" value="10">
+
+		<output for="subdomain domain user" name="outputName"></output>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+
+</html>
