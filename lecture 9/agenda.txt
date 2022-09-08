@@ -1,0 +1,36 @@
+Agenda for today's lecture
+Date: 8 September 2022
+
+Contents:
+	1. Forms
+		- closing notes
+			- text area,
+			- fieldset,
+			- input attributes (readonly, disabled, maxlength, min, max, multiple, pattern, step, autofocus)
+				- datalist
+
+	<questions>
+
+	2. CSS
+		- how it works (revision - from Mozilla docs)
+		<question>
+		- selectors
+			- basic selectors
+				- element
+				- id
+				- class
+				- global/universal selector
+				- grouping selector
+
+			<questions>
+			- combinator
+				- descendant (space)
+				- child (>)
+				- adjacent sibling (+)
+				- general sibling (~)
+			- pseudo-classes
+			- pseudo-elements
+
+Notes:
+	* To be able to use the 'pattern' attribute, you will need to understand regex (Or Regular Expressions)
+	You can read about RegEx from this link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#writing_a_regular_expression_pattern

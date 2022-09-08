@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Form attributes</title>
+	<style>
+		label {
+			display: block;
+		}
+
+		input {
+			display: block;
+		}
+	</style>
+</head>
+
+<body>
+	<form method="post">
+		<label for="first">First name:</label>
+		<input readonly type="text" id="first" name="first" value="Random">
+		<label for="second">Last name</label>
+		<input maxlength="10" type="text" id="second" name="second">
+		<label for="minmax">Minimum and Maximum values:</label>
+		<input id="minmax" type="number" min="10" max="20">
+		<label for="multihouse">Choose all other houses</label>
+		<select multiple name="House" id="multihouse">
+			<option>Griffidor</option>
+			<option>Slytherin</option>
+			<option>Ravenclaw</option>
+			<option>Hufflepuff</option>
+		</select>
+		<label for="phone-pattern">Phone number</label>
+		<input type="tel" name="phone" pattern="\(\+[1-9]{2}\)[6-9]{1}[0-9]{9}" required>
+		<input autofocus type="text" pattern="[a-z]{8}[a-z]*">
+		<label for="grocery">Grocery item</label>
+		<input type="text" id="grocery" name="grocery-item" list="grocery-list">
+		<DATALIST id="grocery-list">
+			<option>Milk</option>
+			<option>Flour</option>
+			<option value="Grape">
+			<option value="Banana">
+		</datalist>
+		<input type="number" step="4" required>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+
+</html>
