@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CSS Precedence</title>
+	<link rel="stylesheet" href="index.css" />
+	<style>
+		div {
+			color: red;
+			/* internal parent */
+		}
+
+		p {
+			color: purple;
+			/* internal self */
+		}
+	</style>
+</head>
+
+<body>
+	<!--
+		html
+		- head
+			- title
+		- body
+			- div
+				- p
+	-->
+	<div style="color: blue;">
+		<!-- inline parent -->
+		<p style="color: orange;">Hello</p> <!-- inline self -->
+	</div>
+	<!--
+			inline, internal, external
+			self, parent
+
+			1. inline-self
+			2. inline-parent
+			3. internal-self
+			4. internal-parent
+			5. external-self
+			6. external-parent
+
+			135246
+		-->
+</body>
+
+</html>

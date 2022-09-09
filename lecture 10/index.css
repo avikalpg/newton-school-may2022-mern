@@ -1,0 +1,9 @@
+div {
+	color: green;
+	/* external parent */
+}
+
+p {
+	color: cyan;
+	/* external self */
+}

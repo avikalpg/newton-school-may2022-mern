@@ -1,0 +1,24 @@
+Agenda for today's lecture
+Date: 9 September 2022
+
+Contents:
+	- selectors
+		- basic selectors
+			- element
+			- id
+			- class
+			- global/universal selector
+			- grouping selector
+
+		<questions>
+		- combinator
+			- descendant (space)
+			- child (>)
+			- adjacent sibling (+)
+			- general sibling (~)
+		- pseudo-classes
+		- pseudo-elements
+
+Notes:
+	* To be able to use the 'pattern' attribute, you will need to understand regex (Or Regular Expressions)
+	You can read about RegEx from this link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#writing_a_regular_expression_pattern

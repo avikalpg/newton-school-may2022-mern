@@ -32,5 +32,8 @@ Contents:
 			- pseudo-elements
 
 Notes:
-	* To be able to use the 'pattern' attribute, you will need to understand regex (Or Regular Expressions)
-	You can read about RegEx from this link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions#writing_a_regular_expression_pattern
+	- Next class
+		-> multiple selectors on one
+		-> attribute based selection
+		-> pseudo-classes
+		-> pseudo-elements

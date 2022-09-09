@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CSS Selectors</title>
+	<style>
+		div {
+			background-color: yellow;
+		}
+
+		div.general {
+			background-color: chartreuse;
+		}
+
+		.whatever {
+			color: brown;
+		}
+
+		#first {
+			background-color: aquamarine;
+		}
+
+		* {
+			color: #0101e1;
+		}
+
+		form p {
+			background-color: orange;
+		}
+
+		div .general+p {
+			background-color: forestgreen;
+		}
+
+		div .general~* {
+			background-color: forestgreen;
+		}
+
+		form * {
+			margin: 20px;
+		}
+
+		div>* {
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="first" class="general">
+		Hello
+	</div>
+	<div class="general whatever">
+		World
+	</div>
+	<div>
+		and Universe
+	</div>
+	<p class="general">
+		My name is Anthony Gonzalves.
+	</p>
+
+	<span>
+		Yo
+	</span>
+
+	<form>
+		<p>Random</p>
+		<input type="text" id="text">
+		<label for="text">Something</label>
+	</form>
+
+	<div>
+		<span class="general">
+			General span inside a division.
+		</span>
+		<span class="normal">
+			Normal span inside a division
+			<p>Paragraph in span in division</p>
+		</span>
+		<p>
+			Paragraph inside a division
+		</p>
+	</div>
+</body>
+
+</html>
