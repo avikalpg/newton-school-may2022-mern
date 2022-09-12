@@ -1,0 +1,20 @@
+Agenda for today's lecture
+Date: 12 September 2022
+
+Contents:
+	- selectors
+		- basic selectors
+			- grouping selector
+
+		<questions>
+		- pseudo-classes
+			- :hover
+			- :active
+		- selector-attributes
+		<question>
+
+		- pseudo-elements
+			- ::first-element
+
+
+Notes:

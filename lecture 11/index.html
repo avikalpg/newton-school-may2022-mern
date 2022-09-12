@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="index.css" />
+	<title>CSS Selectors: pseudo classes & pseudo-element</title>
+</head>
+
+<body>
+	<header>
+		<div class="company-name">
+			COMPANY
+		</div>
+		<div>
+			<nav>
+				<span><a id="first" href="#home">Home</a></span>
+				<span><a id="second" href="#about">About</a></span>
+				<span><a href="#contact">Contact</a></span>
+				<span><a href="https://netflix.com">Google</a></span>
+			</nav>
+		</div>
+		<div>
+			Login
+		</div>
+	</header>
+
+	<main>
+		<section id="home" class="qwer">
+			This is the home section.
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. A est expedita cum unde vel, porro harum quibusdam
+			explicabo iusto maxime veritatis tempora similique voluptatum quae laborum quidem doloremque, totam tenetur!
+		</section>
+
+		<section id="about" class="qwer">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ex tempore, velit blanditiis tempora
+			odio, itaque, voluptatibus autem ad rerum repellat omnis vero assumenda consectetur laboriosam cumque
+			obcaecati eum ratione?
+		</section>
+
+		<section id="contact">
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis magni corrupti accusamus animi
+			consequuntur vel ut ab, dolor voluptates tenetur laudantium dolores provident vitae aliquam, iste
+			perspiciatis est ipsum asperiores.
+		</section>
+
+		<form>
+			<input type="checkbox" id="check" />
+			<input type="number" min="10" max="20">
+			<input type="text" id="username" autocomplete="username" />
+			<input type="text" id="address" />
+			<input type="text" id="First" />
+			<input type="text" id="lastname" />
+		</form>
+	</main>
+	<script>
+		document.getElementById("check").indeterminate = true;
+	</script>
+</body>
+
+</html>

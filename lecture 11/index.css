@@ -1,0 +1,81 @@
+section {
+	width: 400px;
+	padding: 10px;
+}
+
+section.qwer {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section:hover {
+	background-color: antiquewhite;
+}
+
+/* :visited {
+	background-color: gray;
+}
+
+a:link {
+	background-color: black;
+	color: white;
+	padding: 5px;
+} */
+
+:active {
+	font-weight: 400;
+}
+
+:indeterminate {
+	margin: 100px;
+}
+
+input:autofill,
+input:-webkit-autofill {
+	background-color: blue !important;
+	border: 10px solid cyan;
+}
+
+input:in-range {
+	color: green;
+}
+
+#first:hover {
+	background-color: chocolate;
+}
+
+#second:hover {
+	background-color: violet;
+}
+
+form>* {
+	margin: 20px;
+}
+
+* {
+	font-size: large;
+}
+
+/* selector attributes */
+
+a[id] {
+	color: orange;
+}
+
+a[href="#contact"] {
+	color: aqua;
+}
+
+section[id="contact"] {
+	font-family: cursive;
+}
+
+input[type="text"] {
+	border: 3px solid red;
+	border-radius: 13px;
+}
+
+/* grouping */
+a,
+section {
+	width: 100px;
+}
